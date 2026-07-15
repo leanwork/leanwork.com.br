@@ -261,3 +261,15 @@ a:hover{color:#444444}
   .perfis-section .container{padding-top:56px;padding-bottom:56px}
   .perfis-grid{grid-template-columns:1fr}
 }
+
+.planos-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:72px}
+.plano-card{border:1px solid var(--c-border);padding:34px;position:relative}
+.plano-card--destaque{border-color:var(--c-black)}
+.plano-badge{position:absolute;top:-13px;left:34px;background:var(--c-black);color:var(--c-white);font-size:11px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;padding:5px 12px}
+.plano-title{margin:0;font-size:17px;font-weight:700}
+.plano-text{margin:12px 0 0;font-size:14px;line-height:1.6;color:var(--c-text-body)}
+.planos-note{margin:28px 0 0;font-size:14px;color:var(--c-text-eyebrow)}
+
+@media (max-width:1099px){
+  .planos-grid{grid-template-columns:1fr;gap:20px}
+}

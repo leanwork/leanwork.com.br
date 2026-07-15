@@ -188,6 +188,7 @@ a:hover{color:#444444}
 
 @media (max-width:1099px){
   .why-section .container{padding-top:80px;padding-bottom:80px}
+  .why-grid{grid-template-columns:1fr}
 }
 @media (max-width:767px){
   .why-section .container{padding-top:56px;padding-bottom:56px}

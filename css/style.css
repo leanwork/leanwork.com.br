@@ -299,3 +299,10 @@ a:hover{color:#444444}
   .squad-exemplo-section .container{padding-top:56px;padding-bottom:56px}
   .squad-card{padding:28px}
 }
+
+.service-solution-actions{display:flex;align-items:center;gap:20px;margin-top:28px;flex-wrap:wrap}
+.service-solution-actions .service-solution-cta{margin-top:0}
+.service-solution-more{font-size:14px;font-weight:600;color:var(--c-black)}
+.service-solution-more:hover{color:#444444}
+.service--dark .service-solution-more{color:#eeeeee}
+.service--dark .service-solution-more:hover{color:var(--c-white)}

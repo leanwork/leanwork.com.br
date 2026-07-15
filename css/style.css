@@ -85,3 +85,21 @@ a:hover{color:#444444}
   .hero-summary{flex-direction:column;gap:24px;margin-top:56px}
   .hero-summary-item{max-width:none}
 }
+
+.problemas .container{padding-top:110px;padding-bottom:110px}
+.problemas-grid{display:grid;grid-template-columns:380px 1fr;gap:64px;align-items:start}
+.problemas-sidebar{position:sticky;top:120px}
+.problema-item{display:grid;grid-template-columns:72px 1fr;gap:24px;padding:28px 0;border-top:1px solid var(--c-border);align-items:baseline}
+.problema-num{font-size:15px;font-weight:600;color:#b0b0b0;font-variant-numeric:tabular-nums}
+.problema-title{font-size:21px;font-weight:700;letter-spacing:-0.01em}
+.problema-text{font-size:16px;line-height:1.6;color:var(--c-text-body);margin-top:8px;max-width:560px}
+
+@media (max-width:1099px){
+  .problemas .container{padding-top:80px;padding-bottom:80px}
+  .problemas-grid{grid-template-columns:1fr;gap:40px}
+  .problemas-sidebar{position:static}
+}
+@media (max-width:767px){
+  .problemas .container{padding-top:56px;padding-bottom:56px}
+  .problema-item{grid-template-columns:1fr;gap:8px}
+}

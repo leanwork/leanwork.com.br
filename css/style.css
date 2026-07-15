@@ -103,3 +103,42 @@ a:hover{color:#444444}
   .problemas .container{padding-top:56px;padding-bottom:56px}
   .problema-item{grid-template-columns:1fr;gap:8px}
 }
+
+.service{background:var(--c-white)}
+.service--light{background:var(--c-bg-light)}
+.service--dark{background:var(--c-black);color:var(--c-white)}
+.service .container{padding-top:110px;padding-bottom:110px}
+.service-eyebrow{font-size:14px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--c-text-eyebrow)}
+.service-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:28px;align-items:start}
+.service-title{margin:0;font-size:48px;line-height:1.06;font-weight:800;letter-spacing:-0.02em}
+.service-bullets{margin-top:36px;display:flex;flex-direction:column;gap:14px}
+.service-bullet{display:flex;gap:14px;align-items:baseline}
+.bullet-dash{font-weight:800;font-size:15px}
+.service-bullet span:last-child{font-size:17px;line-height:1.55;color:#333333}
+.service--dark .bullet-dash{color:#666666}
+.service--dark .service-bullet span:last-child{color:#c4c4c4}
+
+.service-solution{background:var(--c-white);border:1px solid var(--c-border);padding:44px 44px 40px 44px}
+.service-solution--muted{background:var(--c-bg-light)}
+.service--dark .service-solution{background:#111111;border-color:#2a2a2a}
+.service-solution-eyebrow{font-size:14px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--c-text-eyebrow);margin-bottom:16px}
+.service-solution-lead{margin:0;font-size:19px;line-height:1.6;color:#111111}
+.service--dark .service-solution-lead{color:#eeeeee}
+.service-solution-list{margin-top:32px;display:flex;flex-direction:column;gap:0}
+.service-solution-item{padding:18px 0;border-top:1px solid var(--c-border)}
+.service--dark .service-solution-item{border-top-color:#2a2a2a}
+.solution-item-title{font-size:16px;font-weight:700}
+.solution-item-text{font-size:15px;color:var(--c-text-body);line-height:1.55;margin-top:4px}
+.service--dark .solution-item-text{color:#9a9a9a}
+.service-solution-cta{display:inline-block;margin-top:28px;font-size:15px;padding:14px 26px}
+
+@media (max-width:1099px){
+  .service .container{padding-top:80px;padding-bottom:80px}
+  .service-grid{grid-template-columns:1fr;gap:40px}
+  .service-title{font-size:38px}
+}
+@media (max-width:767px){
+  .service .container{padding-top:56px;padding-bottom:56px}
+  .service-title{font-size:30px}
+  .service-solution{padding:32px 24px}
+}

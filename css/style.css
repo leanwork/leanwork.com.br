@@ -239,11 +239,14 @@ a:hover{color:#444444}
 
 @media (max-width:1099px){
   .why-ai-section .container{padding-top:80px;padding-bottom:80px}
+  .why-ai-grid{grid-template-columns:1fr}
 }
 @media (max-width:767px){
   .why-ai-section .container{padding-top:56px;padding-bottom:56px}
   .why-ai-grid{grid-template-columns:1fr}
   .compare-row{grid-template-columns:1fr}
+  .compare-dots{flex-wrap:wrap;gap:8px}
+  .compare-dot{width:26px;height:26px}
 }
 
 .perfis-section{background:var(--c-bg-light)}
